@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul { @apply list-disc list-inside }
+ol { @apply list-decimal list-inside }
+
+.line-1 { @apply break-words line-clamp-1 }                                                          
+.line-2 { @apply break-words line-clamp-2 }
+.line-3 { @apply break-words line-clamp-3 }
+
+.f-c { @apply flex items-center }
+.f-e { @apply flex items-end }
+.f-c-c { @apply flex items-center justify-center }
+.f-c-a { @apply flex items-center justify-around }
+.f-c-b { @apply flex items-center justify-between }
